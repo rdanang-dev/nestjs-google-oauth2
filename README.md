@@ -19,7 +19,10 @@ This Google Oauth2 App was build by me using \:
 
 ```bash
 $ yarn install
+$ cp .env.example .env
 ```
+
+change the GOOGLE_CLIENT_ID, and GOOGLE_SECRET on .env
 
 ## Running the app
 
@@ -27,3 +30,5 @@ $ yarn install
 # watch mode
 $ yarn serve
 ```
+
+your app will be served at http://localhost:3000

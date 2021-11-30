@@ -18,6 +18,6 @@ export class AuthController {
   @UseGuards(AuthGuard('google'))
   async googleAuthRedirect(@Req() req) {
     if (!req.user) throw new Error('Something went wrong!');
-    return { message: 'User information from google', user: req.user };
+    return { message: 'Login Success!', user: req.user };
   }
 }
