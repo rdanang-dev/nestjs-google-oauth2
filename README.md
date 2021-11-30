@@ -9,7 +9,6 @@ This Google Oauth2 App was build by me using \:
 
   <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
 <br>
-<br>
 
 ## Description
 
