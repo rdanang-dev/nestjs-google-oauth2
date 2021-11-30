@@ -3,14 +3,14 @@ import { AuthGuard } from '@nestjs/passport';
 
 import { AppService } from './app.service';
 
-@Controller('google')
+@Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
   /**
    * Route to get the user profile / login
    */
-  @Get()
+  @Get('/')
   @UseGuards(AuthGuard('google'))
   async googleAuth(@Req() req) {}
 
